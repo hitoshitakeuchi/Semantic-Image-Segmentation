@@ -1,0 +1,4 @@
+flame
+smoke
+rendering error
+blackout
