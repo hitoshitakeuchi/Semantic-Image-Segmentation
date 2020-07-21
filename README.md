@@ -17,4 +17,4 @@ https://github.com/tensorflow/tensorflow/tree/r1.13
 
 https://github.com/tensorflow/models/tree/r1.13.0
 
-https://github.com/asus4/tf-lite-unity-sample
+https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/experimental/examples/unity/TensorFlowLitePlugin
