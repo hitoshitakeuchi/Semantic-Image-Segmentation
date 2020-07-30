@@ -120,7 +120,6 @@ namespace TensorFlowLite
 
         public void ToTensor(RenderTexture texture, float[,,] inputs, float offset, float scale)
         {
-            // TODO: optimize this
             var pixels = FetchPixels(texture);
             int width = texture.width;
             for (int i = 0; i < pixels.Length; i++)

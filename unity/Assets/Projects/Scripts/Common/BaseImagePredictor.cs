@@ -90,7 +90,7 @@ namespace TensorFlowLite
             interpreter.AllocateTensors();
         }
 
-#pragma warning disable CS0162 // Unreachable code detected 
+#pragma warning disable CS0162 
         static IGpuDelegate CreateGpuDelegate()
         {
 #if UNITY_ANDROID && !UNITY_EDITOR
@@ -102,10 +102,10 @@ namespace TensorFlowLite
                 waitType = MetalDelegate.WaitType.Passive,
             });
 #endif
-            UnityEngine.Debug.LogWarning("GPU Delegate is not supported on this platform");
+            //UnityEngine.Debug.LogWarning("GPU Delegate is not supported on this platform");
             return null;
         }
     }
-#pragma warning restore CS0162 // Unreachable code detected 
+#pragma warning restore CS0162 
 
 }

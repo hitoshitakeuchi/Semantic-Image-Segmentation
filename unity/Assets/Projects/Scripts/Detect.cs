@@ -18,7 +18,6 @@ public class Detect : MonoBehaviour
     float scoreThreshold = 0.5f;
     [SerializeField]
     TextAsset labelMap = null;
-    //WebCamTexture webcamTexture;
     public RenderTexture rt;
     SSD ssd;
     public Material mat;
