@@ -51,12 +51,14 @@
      <Compile Include="Assets\Projects\Scripts\Common\TextureToTensor.cs" />
      <Compile Include="Assets\Projects\Scripts\Common\WebCamUtil.cs" />
      <Compile Include="Assets\Projects\Scripts\Detect.cs" />
+     <Compile Include="Assets\Projects\Scripts\FileAppender.cs" />
+     <Compile Include="Assets\Projects\Scripts\LoadVideo.cs" />
      <Compile Include="Assets\Projects\Scripts\SSD.cs" />
      <None Include="Assets\Projects\Resources\Resize.shader" />
      <None Include="Assets\Projects\Resources\LineShader.shader" />
      <None Include="Assets\Projects\Shaders\Video.shader" />
      <None Include="Assets\Projects\Shaders\LabelToTex.compute" />
-     <None Include="Assets\Projects\Scripts\detect.txt" />
+     <None Include="Assets\StreamingAssets\detect.txt" />
      <None Include="Assets\Projects\Resources\TextureToTensor.compute" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

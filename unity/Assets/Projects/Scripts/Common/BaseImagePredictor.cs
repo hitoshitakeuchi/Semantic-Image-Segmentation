@@ -52,7 +52,6 @@ namespace TensorFlowLite
             tex2tensor?.Dispose();
         }
 
-
         public abstract void Invoke(Texture inputTex);
 
         protected void ToTensor(Texture inputTex, float[,,] inputs)
